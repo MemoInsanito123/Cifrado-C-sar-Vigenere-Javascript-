@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFRADO VIGENERE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Bienvenido al Cifrado y Descifrado Cesar Vigenere</h1>
+
+    <div id="contendeor">
+        <div id="contenedorFormulario1">
+            <p>Cifrar</p>
+            <form id="cifradoForm0" >
+                <label for="wordInput00">Palabra</label>
+                <input type="text" id="wordInput00" placeholder="Ingresa la palabra a cifrar" required>
+
+                <label for="keyInput00">Clave</label>
+                <input type="text" id="keyInput00" placeholder="Ingresa la clave para cifrar" required>
+
+                <input type="submit" value="Cifrar" onclick="sayHi(event)">
+            </form>
+        </div>
+        <div id="contenedorFormulario2">
+
+        </div>
+        <div id="contenedorPlus">
+            <p>Descifrar</p>
+            <form id="cifradoForm1" >
+                <label for="wordInput01">Texto</label>
+                <input type="text" id="wordInput01" placeholder="Ingresa el texto para Descifrar" required>
+
+                <label for="keyInput01">Clave</label>
+                <input type="text" id="keyInput01" placeholder="Ingresa la clave para para Descifrar" required>
+
+                <input type="submit" value="Descifrar" onclick="sayBye(event)">
+            </form>
+        </div>
+        
+    </div>
+
+    <h1>TABLA CIFRADO VIGENERE</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>E</th>
+                <th>F</th>
+                <th>G</th>
+                <th>H</th>
+                <th>I</th>
+                <th>J</th>
+                <th>K</th>
+                <th>L</th>
+                <th>M</th>
+                <th>N</th>
+                <th>O</th>
+                <th>P</th>
+                <th>Q</th>
+                <th>R</th>
+                <th>S</th>
+                <th>T</th>
+                <th>U</th>
+                <th>V</th>
+                <th>W</th>
+                <th>X</th>
+                <th>Y</th>
+                <th>Z</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script src="table.js"></script>
+        </tbody>
+    </table>
+
+    <script src="./script0.js"></script>
+    <script src="./functions.js"></script>
+
+</body>
+</html>
